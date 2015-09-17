@@ -13,7 +13,7 @@
 #import "SQLTableListProtocol.h"
 #import "SQLDatabaseDescription.h"
 
-@interface SQLMainViewController ()<SQLTableListDelegate>
+@interface SQLMainViewController ()<SQLTableListDelegate,NSWindowDelegate>
 @property (nonatomic, strong) IBOutlet SQLTableListView *tableListView;
 @property (nonatomic, strong) IBOutlet SQLTableDetailView *tableDetailView;
 
@@ -42,6 +42,13 @@
 {
     self.seperatorView.layer.backgroundColor = [NSColor lightGrayColor].CGColor;
     [self menuHidden:YES];
+    self.view.window.delegate = self;
+}
+
+#pragma mark - NSWindowDelegate
+-(BOOL)windowShouldClose:(nonnull id)sender
+{
+    exit(0);
 }
 
 #pragma mark - Actions

@@ -24,7 +24,6 @@
 		7C40028E1BA62BE8009BCDF3 /* SQLDatabaseDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C40028D1BA62BE8009BCDF3 /* SQLDatabaseDescription.m */; };
 		7C917E921BA00B8C00E190A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C917E911BA00B8C00E190A1 /* AppDelegate.m */; };
 		7C917E951BA00B8C00E190A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C917E941BA00B8C00E190A1 /* main.m */; };
-		7C917E981BA00B8C00E190A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C917E971BA00B8C00E190A1 /* ViewController.m */; };
 		7C917E9A1BA00B8C00E190A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C917E991BA00B8C00E190A1 /* Assets.xcassets */; };
 		7C917E9D1BA00B8D00E190A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C917E9B1BA00B8D00E190A1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -59,8 +58,6 @@
 		7C917E901BA00B8C00E190A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C917E911BA00B8C00E190A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7C917E941BA00B8C00E190A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7C917E961BA00B8C00E190A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7C917E971BA00B8C00E190A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7C917E991BA00B8C00E190A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C917E9C1BA00B8D00E190A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C917E9E1BA00B8D00E190A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -139,8 +136,6 @@
 				7C4002841BA5C7CF009BCDF3 /* glyphicons-137-cogwheel.png */,
 				7C917E901BA00B8C00E190A1 /* AppDelegate.h */,
 				7C917E911BA00B8C00E190A1 /* AppDelegate.m */,
-				7C917E961BA00B8C00E190A1 /* ViewController.h */,
-				7C917E971BA00B8C00E190A1 /* ViewController.m */,
 				7C917E991BA00B8C00E190A1 /* Assets.xcassets */,
 				7C917E9B1BA00B8D00E190A1 /* Main.storyboard */,
 				7C917E9E1BA00B8D00E190A1 /* Info.plist */,
@@ -278,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C917E981BA00B8C00E190A1 /* ViewController.m in Sources */,
 				7C40026D1BA28FB3009BCDF3 /* SQLTableNameView.m in Sources */,
 				7C40027A1BA3DFD1009BCDF3 /* SQLTableListView.m in Sources */,
 				7C40028E1BA62BE8009BCDF3 /* SQLDatabaseDescription.m in Sources */,
