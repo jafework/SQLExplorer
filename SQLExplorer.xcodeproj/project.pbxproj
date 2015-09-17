@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71D06F684B5CC76B7C44CB6C /* libPods-SQLExplorer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F9CB7E3DDEC5A97EF2D848 /* libPods-SQLExplorer.a */; };
+		7C40026A1BA28C8A009BCDF3 /* glyphicons-530-list-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4002691BA28C8A009BCDF3 /* glyphicons-530-list-alt.png */; };
+		7C40026D1BA28FB3009BCDF3 /* SQLTableNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C40026C1BA28FB3009BCDF3 /* SQLTableNameView.m */; };
+		7C4002711BA3DA3F009BCDF3 /* SQLTableDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4002701BA3DA3F009BCDF3 /* SQLTableDescription.m */; };
+		7C4002741BA3DAF4009BCDF3 /* SQLTableProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4002731BA3DAF4009BCDF3 /* SQLTableProperty.m */; };
+		7C4002771BA3DF6F009BCDF3 /* SQLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4002761BA3DF6F009BCDF3 /* SQLMainViewController.m */; };
+		7C40027A1BA3DFD1009BCDF3 /* SQLTableListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4002791BA3DFD1009BCDF3 /* SQLTableListView.m */; };
+		7C40027D1BA3E015009BCDF3 /* SQLTableDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C40027C1BA3E015009BCDF3 /* SQLTableDetailView.m */; };
+		7C4002801BA3E161009BCDF3 /* SQLStoreSharedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C40027F1BA3E161009BCDF3 /* SQLStoreSharedManager.m */; };
+		7C4002831BA5C7A9009BCDF3 /* glyphicons-86-repeat.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4002821BA5C7A9009BCDF3 /* glyphicons-86-repeat.png */; };
+		7C4002851BA5C7CF009BCDF3 /* glyphicons-137-cogwheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4002841BA5C7CF009BCDF3 /* glyphicons-137-cogwheel.png */; };
+		7C4002881BA5C83B009BCDF3 /* glyphicons-211-left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4002861BA5C83B009BCDF3 /* glyphicons-211-left-arrow.png */; };
+		7C4002891BA5C83B009BCDF3 /* glyphicons-212-right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4002871BA5C83B009BCDF3 /* glyphicons-212-right-arrow.png */; };
+		7C40028B1BA61544009BCDF3 /* glyphicons-200-ban.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C40028A1BA61544009BCDF3 /* glyphicons-200-ban.png */; };
+		7C40028E1BA62BE8009BCDF3 /* SQLDatabaseDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C40028D1BA62BE8009BCDF3 /* SQLDatabaseDescription.m */; };
 		7C917E921BA00B8C00E190A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C917E911BA00B8C00E190A1 /* AppDelegate.m */; };
 		7C917E951BA00B8C00E190A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C917E941BA00B8C00E190A1 /* main.m */; };
 		7C917E981BA00B8C00E190A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C917E971BA00B8C00E190A1 /* ViewController.m */; };
@@ -15,6 +30,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		232195D31E853105AF9D9D99 /* Pods-SQLExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLExplorer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQLExplorer/Pods-SQLExplorer.release.xcconfig"; sourceTree = "<group>"; };
+		609374AC506D380E0634E9AE /* Pods-SQLExplorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLExplorer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQLExplorer/Pods-SQLExplorer.debug.xcconfig"; sourceTree = "<group>"; };
+		7C4002691BA28C8A009BCDF3 /* glyphicons-530-list-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-530-list-alt.png"; sourceTree = "<group>"; };
+		7C40026B1BA28FB3009BCDF3 /* SQLTableNameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLTableNameView.h; sourceTree = "<group>"; };
+		7C40026C1BA28FB3009BCDF3 /* SQLTableNameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLTableNameView.m; sourceTree = "<group>"; };
+		7C40026F1BA3DA3F009BCDF3 /* SQLTableDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLTableDescription.h; sourceTree = "<group>"; };
+		7C4002701BA3DA3F009BCDF3 /* SQLTableDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLTableDescription.m; sourceTree = "<group>"; };
+		7C4002721BA3DAF4009BCDF3 /* SQLTableProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLTableProperty.h; sourceTree = "<group>"; };
+		7C4002731BA3DAF4009BCDF3 /* SQLTableProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLTableProperty.m; sourceTree = "<group>"; };
+		7C4002751BA3DF6F009BCDF3 /* SQLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLMainViewController.h; sourceTree = "<group>"; };
+		7C4002761BA3DF6F009BCDF3 /* SQLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLMainViewController.m; sourceTree = "<group>"; };
+		7C4002781BA3DFD1009BCDF3 /* SQLTableListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLTableListView.h; sourceTree = "<group>"; };
+		7C4002791BA3DFD1009BCDF3 /* SQLTableListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLTableListView.m; sourceTree = "<group>"; };
+		7C40027B1BA3E015009BCDF3 /* SQLTableDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLTableDetailView.h; sourceTree = "<group>"; };
+		7C40027C1BA3E015009BCDF3 /* SQLTableDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLTableDetailView.m; sourceTree = "<group>"; };
+		7C40027E1BA3E161009BCDF3 /* SQLStoreSharedManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLStoreSharedManager.h; sourceTree = "<group>"; };
+		7C40027F1BA3E161009BCDF3 /* SQLStoreSharedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLStoreSharedManager.m; sourceTree = "<group>"; };
+		7C4002811BA3ED68009BCDF3 /* SQLTableListProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLTableListProtocol.h; sourceTree = "<group>"; };
+		7C4002821BA5C7A9009BCDF3 /* glyphicons-86-repeat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-86-repeat.png"; sourceTree = "<group>"; };
+		7C4002841BA5C7CF009BCDF3 /* glyphicons-137-cogwheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-137-cogwheel.png"; sourceTree = "<group>"; };
+		7C4002861BA5C83B009BCDF3 /* glyphicons-211-left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-211-left-arrow.png"; sourceTree = "<group>"; };
+		7C4002871BA5C83B009BCDF3 /* glyphicons-212-right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-212-right-arrow.png"; sourceTree = "<group>"; };
+		7C40028A1BA61544009BCDF3 /* glyphicons-200-ban.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphicons-200-ban.png"; sourceTree = "<group>"; };
+		7C40028C1BA62BE8009BCDF3 /* SQLDatabaseDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLDatabaseDescription.h; sourceTree = "<group>"; };
+		7C40028D1BA62BE8009BCDF3 /* SQLDatabaseDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLDatabaseDescription.m; sourceTree = "<group>"; };
 		7C917E8D1BA00B8C00E190A1 /* SQLExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C917E901BA00B8C00E190A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C917E911BA00B8C00E190A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -24,6 +64,7 @@
 		7C917E991BA00B8C00E190A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C917E9C1BA00B8D00E190A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C917E9E1BA00B8D00E190A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F9CB7E3DDEC5A97EF2D848 /* libPods-SQLExplorer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQLExplorer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +72,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D06F684B5CC76B7C44CB6C /* libPods-SQLExplorer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24FF7B600414AF96BBF769DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				609374AC506D380E0634E9AE /* Pods-SQLExplorer.debug.xcconfig */,
+				232195D31E853105AF9D9D99 /* Pods-SQLExplorer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54724F1B1FFE6B7D806D285D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9CB7E3DDEC5A97EF2D848 /* libPods-SQLExplorer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C40026E1BA3DA0A009BCDF3 /* SQLTableDescription */ = {
+			isa = PBXGroup;
+			children = (
+				7C40028A1BA61544009BCDF3 /* glyphicons-200-ban.png */,
+				7C4002861BA5C83B009BCDF3 /* glyphicons-211-left-arrow.png */,
+				7C4002871BA5C83B009BCDF3 /* glyphicons-212-right-arrow.png */,
+				7C40026F1BA3DA3F009BCDF3 /* SQLTableDescription.h */,
+				7C4002701BA3DA3F009BCDF3 /* SQLTableDescription.m */,
+				7C4002721BA3DAF4009BCDF3 /* SQLTableProperty.h */,
+				7C4002731BA3DAF4009BCDF3 /* SQLTableProperty.m */,
+				7C40028C1BA62BE8009BCDF3 /* SQLDatabaseDescription.h */,
+				7C40028D1BA62BE8009BCDF3 /* SQLDatabaseDescription.m */,
+			);
+			name = SQLTableDescription;
+			sourceTree = "<group>";
+		};
 		7C917E841BA00B8C00E190A1 = {
 			isa = PBXGroup;
 			children = (
 				7C917E8F1BA00B8C00E190A1 /* SQLExplorer */,
 				7C917E8E1BA00B8C00E190A1 /* Products */,
+				24FF7B600414AF96BBF769DD /* Pods */,
+				54724F1B1FFE6B7D806D285D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +133,10 @@
 		7C917E8F1BA00B8C00E190A1 /* SQLExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				7C40026E1BA3DA0A009BCDF3 /* SQLTableDescription */,
+				7C4002691BA28C8A009BCDF3 /* glyphicons-530-list-alt.png */,
+				7C4002821BA5C7A9009BCDF3 /* glyphicons-86-repeat.png */,
+				7C4002841BA5C7CF009BCDF3 /* glyphicons-137-cogwheel.png */,
 				7C917E901BA00B8C00E190A1 /* AppDelegate.h */,
 				7C917E911BA00B8C00E190A1 /* AppDelegate.m */,
 				7C917E961BA00B8C00E190A1 /* ViewController.h */,
@@ -64,6 +145,17 @@
 				7C917E9B1BA00B8D00E190A1 /* Main.storyboard */,
 				7C917E9E1BA00B8D00E190A1 /* Info.plist */,
 				7C917E931BA00B8C00E190A1 /* Supporting Files */,
+				7C40026B1BA28FB3009BCDF3 /* SQLTableNameView.h */,
+				7C40026C1BA28FB3009BCDF3 /* SQLTableNameView.m */,
+				7C4002751BA3DF6F009BCDF3 /* SQLMainViewController.h */,
+				7C4002761BA3DF6F009BCDF3 /* SQLMainViewController.m */,
+				7C4002781BA3DFD1009BCDF3 /* SQLTableListView.h */,
+				7C4002791BA3DFD1009BCDF3 /* SQLTableListView.m */,
+				7C40027B1BA3E015009BCDF3 /* SQLTableDetailView.h */,
+				7C40027C1BA3E015009BCDF3 /* SQLTableDetailView.m */,
+				7C40027E1BA3E161009BCDF3 /* SQLStoreSharedManager.h */,
+				7C40027F1BA3E161009BCDF3 /* SQLStoreSharedManager.m */,
+				7C4002811BA3ED68009BCDF3 /* SQLTableListProtocol.h */,
 			);
 			path = SQLExplorer;
 			sourceTree = "<group>";
@@ -83,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C917EA11BA00B8D00E190A1 /* Build configuration list for PBXNativeTarget "SQLExplorer" */;
 			buildPhases = (
+				6457B44B20ABE347B78FC0A6 /* Check Pods Manifest.lock */,
 				7C917E891BA00B8C00E190A1 /* Sources */,
 				7C917E8A1BA00B8C00E190A1 /* Frameworks */,
 				7C917E8B1BA00B8C00E190A1 /* Resources */,
+				53B1D3C44F2BE35388673840 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,12 +227,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4002851BA5C7CF009BCDF3 /* glyphicons-137-cogwheel.png in Resources */,
+				7C4002881BA5C83B009BCDF3 /* glyphicons-211-left-arrow.png in Resources */,
+				7C4002831BA5C7A9009BCDF3 /* glyphicons-86-repeat.png in Resources */,
 				7C917E9A1BA00B8C00E190A1 /* Assets.xcassets in Resources */,
+				7C40026A1BA28C8A009BCDF3 /* glyphicons-530-list-alt.png in Resources */,
+				7C4002891BA5C83B009BCDF3 /* glyphicons-212-right-arrow.png in Resources */,
+				7C40028B1BA61544009BCDF3 /* glyphicons-200-ban.png in Resources */,
 				7C917E9D1BA00B8D00E190A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53B1D3C44F2BE35388673840 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQLExplorer/Pods-SQLExplorer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6457B44B20ABE347B78FC0A6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C917E891BA00B8C00E190A1 /* Sources */ = {
@@ -146,8 +279,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C917E981BA00B8C00E190A1 /* ViewController.m in Sources */,
+				7C40026D1BA28FB3009BCDF3 /* SQLTableNameView.m in Sources */,
+				7C40027A1BA3DFD1009BCDF3 /* SQLTableListView.m in Sources */,
+				7C40028E1BA62BE8009BCDF3 /* SQLDatabaseDescription.m in Sources */,
+				7C4002741BA3DAF4009BCDF3 /* SQLTableProperty.m in Sources */,
 				7C917E951BA00B8C00E190A1 /* main.m in Sources */,
 				7C917E921BA00B8C00E190A1 /* AppDelegate.m in Sources */,
+				7C40027D1BA3E015009BCDF3 /* SQLTableDetailView.m in Sources */,
+				7C4002801BA3E161009BCDF3 /* SQLStoreSharedManager.m in Sources */,
+				7C4002771BA3DF6F009BCDF3 /* SQLMainViewController.m in Sources */,
+				7C4002711BA3DA3F009BCDF3 /* SQLTableDescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +387,7 @@
 		};
 		7C917EA21BA00B8D00E190A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609374AC506D380E0634E9AE /* Pods-SQLExplorer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -258,6 +400,7 @@
 		};
 		7C917EA31BA00B8D00E190A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 232195D31E853105AF9D9D99 /* Pods-SQLExplorer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -287,6 +430,7 @@
 				7C917EA31BA00B8D00E190A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
