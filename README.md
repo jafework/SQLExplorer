@@ -1,7 +1,7 @@
 # SQLExplorer
 An OSX SQlite Database Viewer
 
-![Screenshot](https://raw.github.com/Commander147/master/Screenshots/UI.png)
+![Screenshot](https://raw.githubusercontent.com/Commander147/SQLExplorer/master/Screenshots/UI.png)
 
 Build Instructions:
 - 1) Install Xcode
